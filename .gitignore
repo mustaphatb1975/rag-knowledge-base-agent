@@ -1,0 +1,37 @@
+# n8n sensitive files
+*.env
+.env.*
+
+# Credentials
+credentials/
+secrets/
+*.key
+*.pem
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Real workflow files with credentials
+*-real.json
+*-prod.json
+
+# Google service account keys
+service-account*.json
+google-credentials*.json
+
+# Pinecone / OpenAI keys
+.pinecone
+openai.key
